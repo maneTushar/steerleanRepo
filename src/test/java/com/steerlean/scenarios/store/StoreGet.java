@@ -39,6 +39,10 @@ public void TC_01() throws IOException
 {
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
+	
+	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the Store details are successfully "
+			+ "fetched  Pet details when valid ID passed in URL", ExtentColor.PURPLE));
+	
 	success(testCaseID,"9");
 }
 
@@ -47,6 +51,7 @@ public void TC_02() throws IOException
 {
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
+	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  invalid ID passed in URL", ExtentColor.PURPLE));
 	success(testCaseID,"6565");
 }
 
@@ -55,6 +60,8 @@ public void TC_03() throws IOException
 {
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
+	
+	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  special characters are passed for ID  in URL", ExtentColor.PURPLE));
 	success(testCaseID,"%^&");
 }
 
@@ -63,6 +70,8 @@ public void TC_04() throws IOException
 {
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
+	
+	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  space passed for ID  in URL", ExtentColor.PURPLE));
 	success(testCaseID," ");
 }
 
@@ -71,6 +80,7 @@ public void TC_05() throws IOException
 {
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
+	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  null is passed for ID  in URL", ExtentColor.PURPLE));
 	success(testCaseID,null);
 }
 
@@ -79,6 +89,7 @@ public void TC_06() throws IOException
 {
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
+	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  empty is passed for ID  in URL", ExtentColor.PURPLE));
 	success(testCaseID,"");
 }
 
@@ -87,10 +98,11 @@ public void TC_07() throws IOException
 {
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
+	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  invalid ID passed in URL", ExtentColor.PURPLE));
 	success(testCaseID,"dbn");
 }
 
-	@Test
+	
 	public static void success(String testcaseID,String ID) throws IOException
 	{
 		FileInputStream fileInput = new FileInputStream(file);
@@ -102,11 +114,11 @@ public void TC_07() throws IOException
 		test.log(Status.INFO,MarkupHelper.createLabel("End Point", ExtentColor.PURPLE));
 		test.info(storeGet_endpointURL);
 	
-		Response res = GetResponse.sendRequestGet("api_key", "special-key", storeGet_endpointURL, "", "");
+		Response res = GetResponse.sendRequestGet("api_key", "special-key", storeGet_endpointURL);
 		String responsestr = res.asString();
 		responsestr = utility.jsonFormat(responsestr);
 		JsonPath js = new JsonPath(responsestr);
-		System.out.println("JS->"+responsestr);
+		
 		test.log(Status.INFO,MarkupHelper.createLabel("Response Body", ExtentColor.PURPLE));
 		test.info(responsestr);
 		int statusCode = res.statusCode();
@@ -114,13 +126,13 @@ public void TC_07() throws IOException
 		test.info(statusCode+"");
 		if(statusCode==200)
 		{
-			test.pass("Post service executed successfully");
+			
 			test.log(Status.PASS,MarkupHelper.createLabel("PASS", ExtentColor.GREEN));
 		}
 		else
 		{
-			test.fail("Unable to complete Post service");
-			test.log(Status.FAIL,MarkupHelper.createLabel("FAIL:Unable to complete Post service", ExtentColor.RED));
+			
+			test.log(Status.FAIL,MarkupHelper.createLabel("FAIL", ExtentColor.RED));
 			Assert.fail();
 		}
 	}
@@ -137,11 +149,11 @@ public void TC_07() throws IOException
 		test.log(Status.INFO,MarkupHelper.createLabel("End Point", ExtentColor.PURPLE));
 		test.info(storeGet_endpointURL);
 	
-		Response res = GetResponse.sendRequestGet("api_key", "special-key", storeGet_endpointURL, "", "");
+		Response res = GetResponse.sendRequestGet("api_key", "special-key", storeGet_endpointURL);
 		String responsestr = res.asString();
 		responsestr = utility.jsonFormat(responsestr);
 		JsonPath js = new JsonPath(responsestr);
-		System.out.println("JS->"+responsestr);
+		
 		test.log(Status.INFO,MarkupHelper.createLabel("Response Body", ExtentColor.PURPLE));
 		test.info(responsestr);
 		int statusCode = res.statusCode();

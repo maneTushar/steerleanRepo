@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PetStore" parallel="false">
+  <test name="PET">
+    <classes>
+      <class name="com.steerlean.scenarios.pet.PetPOST"/>
+      <class name="com.steerlean.scenarios.pet.PetPUT"/>
+      <class name="com.steerlean.scenarios.pet.PetGETbyStatus"/>
+      <class name="com.steerlean.scenarios.pet.PetDELETE"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="STORE">
+    <classes>
+      <class name="com.steerlean.scenarios.store.StorePost"/>
+      <class name="com.steerlean.scenarios.store.StoreGet"/>
+      <class name="com.steerlean.scenarios.store.StoreDelete"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
+
+
+

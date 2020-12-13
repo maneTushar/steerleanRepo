@@ -39,6 +39,10 @@ public void TC_01() throws IOException
 {
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
+	
+	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the Store details are successfully "
+			+ "Deleted  Pet details when valid ID passed in URL", ExtentColor.PURPLE));
+	
 	success(testCaseID,"9");
 }
 
@@ -47,7 +51,8 @@ public void TC_02() throws IOException
 {
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
-	Error(testCaseID,"6565");
+	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  invalid ID passed in URL", ExtentColor.PURPLE));
+	success(testCaseID,"6565");
 }
 
 @Test
@@ -55,7 +60,9 @@ public void TC_03() throws IOException
 {
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
-	Error(testCaseID,"%^&");
+	
+	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  special characters are passed for ID  in URL", ExtentColor.PURPLE));
+	success(testCaseID,"%^&");
 }
 
 @Test
@@ -63,7 +70,9 @@ public void TC_04() throws IOException
 {
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
-	Error(testCaseID," ");
+	
+	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  space passed for ID  in URL", ExtentColor.PURPLE));
+	success(testCaseID," ");
 }
 
 @Test
@@ -71,7 +80,8 @@ public void TC_05() throws IOException
 {
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
-	Error(testCaseID,null);
+	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  null is passed for ID  in URL", ExtentColor.PURPLE));
+	success(testCaseID,null);
 }
 
 @Test
@@ -79,7 +89,8 @@ public void TC_06() throws IOException
 {
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
-	Error(testCaseID,"");
+	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  empty is passed for ID  in URL", ExtentColor.PURPLE));
+	success(testCaseID,"");
 }
 
 @Test
@@ -87,8 +98,10 @@ public void TC_07() throws IOException
 {
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
-	Error(testCaseID,"dbn");
+	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  invalid ID passed in URL", ExtentColor.PURPLE));
+	success(testCaseID,"dbn");
 }
+
 
 	
 	public static void success(String testcaseID,String ID) throws IOException
@@ -106,7 +119,7 @@ public void TC_07() throws IOException
 		String responsestr = res.asString();
 		responsestr = utility.jsonFormat(responsestr);
 		JsonPath js = new JsonPath(responsestr);
-		System.out.println("JS->"+responsestr);
+		
 		test.log(Status.INFO,MarkupHelper.createLabel("Response Body", ExtentColor.PURPLE));
 		test.info(responsestr);
 		int statusCode = res.statusCode();
@@ -142,7 +155,7 @@ public void TC_07() throws IOException
 		String responsestr = res.asString();
 		responsestr = utility.jsonFormat(responsestr);
 		JsonPath js = new JsonPath(responsestr);
-		System.out.println("JS->"+responsestr);
+		
 		test.log(Status.INFO,MarkupHelper.createLabel("Response Body", ExtentColor.PURPLE));
 		test.info(responsestr);
 		int statusCode = res.statusCode();

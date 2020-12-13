@@ -27,7 +27,7 @@ public class Reporting {
 		// htmlReporter = new
 		// ExtentHtmlReporter("./Extend_Reports/"+fileName+"/"+fileName+"-"+currentDateTime+".html");
 		htmlReporter = new ExtentHtmlReporter(
-				dir + "//Extend_Reports//" + fileName + "//" + fileName + "-" + currentDateTime + ".html");
+				dir + "//Extent_Reports//" + fileName + "//" + fileName + "-" + currentDateTime + ".html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		extent.setSystemInfo("Host Name", InetAddress.getLocalHost().getHostName());

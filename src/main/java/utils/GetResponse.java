@@ -33,7 +33,7 @@ public class GetResponse {
 		return res;		
 	}
 	
-	public static Response sendRequestGet(String key, String token, String url, String fileName, String testCaseID)
+	public static Response sendRequestGet(String key, String token, String url)
 	{
 		Response res = null;
 		try {
