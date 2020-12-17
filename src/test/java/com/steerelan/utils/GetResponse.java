@@ -1,4 +1,4 @@
-package utils;
+package com.steerelan.utils;
 
 import static io.restassured.RestAssured.given;
 

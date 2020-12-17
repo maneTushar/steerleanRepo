@@ -13,12 +13,11 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.steerelan.utils.*;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import utils.GetResponse;
-import utils.Reporting;
-import utils.utility;
+
 
 public class PetDELETE extends Reporting {
 	
@@ -26,7 +25,7 @@ public static String dir = System.getProperty("user.dir");
 	
 
 
-static File file = new File(".//src//main//resources//endpoints//endpoints.properties");
+static File file = new File(".//src//test//java//com/steerlean//resources//endpoints.properties");
 	
 	
 
@@ -106,12 +105,12 @@ public void TC_06() throws IOException
 		Properties prop = new Properties();
 		
 		prop.load(fileInput);
-		String storeGET_endpoint=prop.getProperty("PetFindByStatus");
-		String petGet_endpointURL=storeGET_endpoint+status;
+		String petDelete_endpoint=prop.getProperty("PetFindByStatus");
+		String petDelete_endpointURL=petDelete_endpoint+status;
 		test.log(Status.INFO,MarkupHelper.createLabel("End Point", ExtentColor.PURPLE));
-		test.info(petGet_endpointURL);
+		test.info(petDelete_endpointURL);
 	
-		Response res = GetResponse.sendRequestGet("api_key", "special-key", petGet_endpointURL);
+		Response res = GetResponse.sendRequestDelete("api_key", "special-key", petDelete_endpointURL);
 		String responsestr = res.asString();
 		responsestr = utility.jsonFormat(responsestr);
 		JsonPath js = new JsonPath(responsestr);
@@ -140,12 +139,12 @@ public void TC_06() throws IOException
 		Properties prop = new Properties();
 		
 		prop.load(fileInput);
-		String storeGET_endpoint=prop.getProperty("PetFindByStatus");
-		String petGet_endpointURL=storeGET_endpoint+status;
+		String petDelete_endpoint=prop.getProperty("PetFindByStatus");
+		String petDelete_endpointURL=petDelete_endpoint+status;
 		test.log(Status.INFO,MarkupHelper.createLabel("End Point", ExtentColor.PURPLE));
-		test.info(petGet_endpointURL);
+		test.info(petDelete_endpointURL);
 	
-		Response res = GetResponse.sendRequestDelete("api_key", "special-key", petGet_endpointURL);
+		Response res = GetResponse.sendRequestDelete("api_key", "special-key", petDelete_endpointURL);
 		String responsestr = res.asString();
 		responsestr = utility.jsonFormat(responsestr);
 		JsonPath js = new JsonPath(responsestr);

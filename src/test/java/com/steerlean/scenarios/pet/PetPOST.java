@@ -17,16 +17,14 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import methods.PostMethod;
-import utils.GetResponse;
-import utils.Reporting;
-import utils.utility;
+import com.steerelan.utils.*;
+import com.steerlean.methods.*;
 
 
 public class PetPOST extends Reporting {
 	public static String dir = System.getProperty("user.dir");
 	
-	public static File file = new File(".//src//main//resources//endpoints//endpoints.properties");
+	static File file = new File(".//src//test//java//com/steerlean//resources//endpoints.properties");
 	
 	
 	

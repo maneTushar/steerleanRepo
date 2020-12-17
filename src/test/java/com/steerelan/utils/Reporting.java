@@ -1,4 +1,4 @@
-package utils;
+package com.steerelan.utils;
 
 import java.net.InetAddress;
 import java.text.SimpleDateFormat;

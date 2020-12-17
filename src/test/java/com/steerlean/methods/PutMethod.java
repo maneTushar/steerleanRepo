@@ -1,4 +1,4 @@
-package methods;
+package com.steerlean.methods;
 
 public class PutMethod {
 	

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>PET</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>27/40/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>17/50/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Dec 13 13:51:51 IST 2020</td>
+<td>Started on:</td><td>Thu Dec 17 12:00:06 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>99 seconds (99491 ms)</td>
+<tr><td>Total time:</td><td>105 seconds (105050 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.steerlean.scenarios.pet.PetGETbyStatus.TC_02()'><b>TC_02</b><br>Test class: com.steerlean.scenarios.pet.PetGETbyStatus</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:168)
-	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_02(PetGETbyStatus.java:59)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1682586333", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1682586333'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.fail(Assert.java:103)
-	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:168)
-	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_02(PetGETbyStatus.java:59)
+<td title='com.steerlean.scenarios.pet.PetPUT.TC_01()'><b>TC_01</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.success(PetPUT.java:377)
+	at com.steerlean.scenarios.pet.PetPUT.TC_01(PetPUT.java:48)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace999427036", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace999427036'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.success(PetPUT.java:377)
+	at com.steerlean.scenarios.pet.PetPUT.TC_01(PetPUT.java:48)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -111,19 +115,144 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetGETbyStatus@271053e1</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
+<tr>
+<td title='com.steerlean.scenarios.pet.PetPUT.TC_02()'><b>TC_02</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_02(PetPUT.java:61)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace530528285", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace530528285'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_02(PetPUT.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
+<tr>
+<td title='com.steerlean.scenarios.pet.PetGETbyStatus.TC_02()'><b>TC_02</b><br>Test class: com.steerlean.scenarios.pet.PetGETbyStatus</td>
+<td><div><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:164)
+	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_02(PetGETbyStatus.java:55)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1058686869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1058686869'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.fail(Assert.java:103)
+	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:164)
+	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_02(PetGETbyStatus.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetGETbyStatus@4f7d0008</td></tr>
+<tr>
+<td title='com.steerlean.scenarios.pet.PetPUT.TC_03()'><b>TC_03</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_03(PetPUT.java:73)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2089578710", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2089578710'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_03(PetPUT.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetGETbyStatus.TC_03()'><b>TC_03</b><br>Test class: com.steerlean.scenarios.pet.PetGETbyStatus</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:168)
-	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_03(PetGETbyStatus.java:68)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1128178348", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1128178348'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:164)
+	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_03(PetGETbyStatus.java:64)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2061337484", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2061337484'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.fail(Assert.java:103)
-	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:168)
-	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_03(PetGETbyStatus.java:68)
+	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:164)
+	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_03(PetGETbyStatus.java:64)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -150,19 +279,62 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetGETbyStatus@271053e1</td></tr>
+<td>3</td>
+<td>com.steerlean.scenarios.pet.PetGETbyStatus@4f7d0008</td></tr>
+<tr>
+<td title='com.steerlean.scenarios.pet.PetPUT.TC_04()'><b>TC_04</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_04(PetPUT.java:85)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2040548959", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2040548959'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_04(PetPUT.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetGETbyStatus.TC_04()'><b>TC_04</b><br>Test class: com.steerlean.scenarios.pet.PetGETbyStatus</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:168)
-	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_04(PetGETbyStatus.java:78)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1625037390", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1625037390'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:164)
+	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_04(PetGETbyStatus.java:74)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1395533739", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1395533739'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.fail(Assert.java:103)
-	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:168)
-	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_04(PetGETbyStatus.java:78)
+	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:164)
+	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_04(PetGETbyStatus.java:74)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -189,18 +361,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetGETbyStatus@271053e1</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetGETbyStatus@4f7d0008</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_05()'><b>TC_05</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_05(PetPOST.java:100)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1596009860", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1596009860'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_05(PetPOST.java:98)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1492822331", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1492822331'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_05(PetPOST.java:100)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_05(PetPOST.java:98)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -227,18 +399,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>8</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_05()'><b>TC_05</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_05(PetPUT.java:98)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace680466239", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace680466239'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_05(PetPUT.java:98)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_05(PetPUT.java:97)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1144499207", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1144499207'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_05(PetPUT.java:97)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -265,19 +442,19 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetGETbyStatus.TC_05()'><b>TC_05</b><br>Test class: com.steerlean.scenarios.pet.PetGETbyStatus</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:168)
-	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_05(PetGETbyStatus.java:88)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1195854264", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1195854264'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:164)
+	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_05(PetGETbyStatus.java:84)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1639759054", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1639759054'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.fail(Assert.java:103)
-	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:168)
-	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_05(PetGETbyStatus.java:88)
+	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:164)
+	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_05(PetGETbyStatus.java:84)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -304,19 +481,62 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetGETbyStatus@271053e1</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetGETbyStatus@4f7d0008</td></tr>
+<tr>
+<td title='com.steerlean.scenarios.pet.PetPUT.TC_06()'><b>TC_06</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_06(PetPUT.java:109)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace778330045", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace778330045'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_06(PetPUT.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetGETbyStatus.TC_06()'><b>TC_06</b><br>Test class: com.steerlean.scenarios.pet.PetGETbyStatus</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:168)
-	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_06(PetGETbyStatus.java:98)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1684854630", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1684854630'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:164)
+	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_06(PetGETbyStatus.java:94)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace253722034", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace253722034'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.fail(Assert.java:103)
-	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:168)
-	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_06(PetGETbyStatus.java:98)
+	at com.steerlean.scenarios.pet.PetGETbyStatus.Error(PetGETbyStatus.java:164)
+	at com.steerlean.scenarios.pet.PetGETbyStatus.TC_06(PetGETbyStatus.java:94)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -343,18 +563,61 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetGETbyStatus@271053e1</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetGETbyStatus@4f7d0008</td></tr>
+<tr>
+<td title='com.steerlean.scenarios.pet.PetPUT.TC_07()'><b>TC_07</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_07(PetPUT.java:120)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1037242711", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1037242711'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_07(PetPUT.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_08()'><b>TC_08</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_08(PetPOST.java:135)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1862900975", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1862900975'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_08(PetPOST.java:133)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace611739613", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace611739613'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_08(PetPOST.java:135)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_08(PetPOST.java:133)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -381,18 +644,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_08()'><b>TC_08</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_08(PetPUT.java:133)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace817460653", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace817460653'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_08(PetPUT.java:133)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_08(PetPUT.java:132)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1480805145", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1480805145'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_08(PetPUT.java:132)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -419,18 +687,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_09()'><b>TC_09</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_09(PetPOST.java:149)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace807986446", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace807986446'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_09(PetPOST.java:147)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace128028301", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace128028301'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_09(PetPOST.java:149)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_09(PetPOST.java:147)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -457,18 +725,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_09()'><b>TC_09</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_09(PetPUT.java:147)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace279544722", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace279544722'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_09(PetPUT.java:147)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_09(PetPUT.java:146)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1255958078", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1255958078'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_09(PetPUT.java:146)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -495,18 +768,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_10()'><b>TC_10</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_10(PetPOST.java:162)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1526866775", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1526866775'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_10(PetPOST.java:160)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1114525788", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1114525788'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_10(PetPOST.java:162)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_10(PetPOST.java:160)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -533,18 +806,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_10()'><b>TC_10</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_10(PetPUT.java:160)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace836449498", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace836449498'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_10(PetPUT.java:160)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_10(PetPUT.java:159)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace83532470", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace83532470'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_10(PetPUT.java:159)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -571,18 +849,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_11()'><b>TC_11</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_11(PetPOST.java:174)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace734971558", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace734971558'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_11(PetPOST.java:172)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace948650013", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace948650013'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_11(PetPOST.java:174)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_11(PetPOST.java:172)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -609,18 +887,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_11()'><b>TC_11</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_11(PetPUT.java:172)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1811587238", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1811587238'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_11(PetPUT.java:172)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_11(PetPUT.java:171)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1850477964", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1850477964'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_11(PetPUT.java:171)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -647,18 +930,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_12()'><b>TC_12</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_12(PetPOST.java:185)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace730583371", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace730583371'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_12(PetPOST.java:183)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1373361892", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1373361892'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_12(PetPOST.java:185)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_12(PetPOST.java:183)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -685,18 +968,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_12()'><b>TC_12</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_12(PetPUT.java:183)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1532675992", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1532675992'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_12(PetPUT.java:183)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_12(PetPUT.java:182)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1961232715", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1961232715'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_12(PetPUT.java:182)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -723,18 +1011,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_13()'><b>TC_13</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_13(PetPOST.java:197)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace310350177", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace310350177'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_13(PetPOST.java:195)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1956296628", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1956296628'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_13(PetPOST.java:197)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_13(PetPOST.java:195)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -761,18 +1049,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_13()'><b>TC_13</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_13(PetPUT.java:195)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1290795133", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1290795133'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_13(PetPUT.java:195)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_13(PetPUT.java:194)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1650327539", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1650327539'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_13(PetPUT.java:194)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -799,18 +1092,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_14()'><b>TC_14</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_14(PetPOST.java:208)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1885307815", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1885307815'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_14(PetPOST.java:206)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace582819897", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace582819897'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_14(PetPOST.java:208)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_14(PetPOST.java:206)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -837,18 +1130,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_14()'><b>TC_14</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_14(PetPUT.java:206)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace995482901", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace995482901'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_14(PetPUT.java:206)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_14(PetPUT.java:205)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1510535132", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1510535132'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_14(PetPUT.java:205)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -875,18 +1173,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_15()'><b>TC_15</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_15(PetPOST.java:219)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2085601983", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2085601983'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_15(PetPOST.java:217)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1490434838", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1490434838'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_15(PetPOST.java:219)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_15(PetPOST.java:217)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -913,18 +1211,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_15()'><b>TC_15</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_15(PetPUT.java:217)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace53301881", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace53301881'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_15(PetPUT.java:217)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_15(PetPUT.java:216)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1686965869", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1686965869'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_15(PetPUT.java:216)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -951,18 +1254,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_16()'><b>TC_16</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_16(PetPOST.java:230)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1409978427", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1409978427'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_16(PetPOST.java:228)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1643838324", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1643838324'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_16(PetPOST.java:230)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_16(PetPOST.java:228)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -989,18 +1292,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_16()'><b>TC_16</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_16(PetPUT.java:228)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace823056052", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace823056052'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_16(PetPUT.java:228)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_16(PetPUT.java:227)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace159651486", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace159651486'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_16(PetPUT.java:227)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1027,18 +1335,190 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
+<tr>
+<td title='com.steerlean.scenarios.pet.PetPUT.TC_17()'><b>TC_17</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_17(PetPUT.java:239)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1549623669", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1549623669'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_17(PetPUT.java:239)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
+<tr>
+<td title='com.steerlean.scenarios.pet.PetPUT.TC_18()'><b>TC_18</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_18(PetPUT.java:251)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace185939155", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace185939155'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_18(PetPUT.java:251)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
+<tr>
+<td title='com.steerlean.scenarios.pet.PetPUT.TC_19()'><b>TC_19</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_19(PetPUT.java:262)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1786872722", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1786872722'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_19(PetPUT.java:262)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
+<tr>
+<td title='com.steerlean.scenarios.pet.PetPUT.TC_20()'><b>TC_20</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_20(PetPUT.java:273)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace501855493", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace501855493'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_20(PetPUT.java:273)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_21()'><b>TC_21</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_21(PetPOST.java:287)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace933027910", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace933027910'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_21(PetPOST.java:285)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1761495255", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1761495255'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_21(PetPOST.java:287)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_21(PetPOST.java:285)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1065,18 +1545,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_21()'><b>TC_21</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_21(PetPUT.java:285)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1835477972", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1835477972'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_21(PetPUT.java:285)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_21(PetPUT.java:284)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace220689785", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace220689785'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_21(PetPUT.java:284)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1103,18 +1588,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_22()'><b>TC_22</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_22(PetPOST.java:298)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2083215552", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2083215552'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_22(PetPOST.java:296)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace65310008", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace65310008'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_22(PetPOST.java:298)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_22(PetPOST.java:296)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1141,18 +1626,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_22()'><b>TC_22</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_22(PetPUT.java:296)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1266759621", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1266759621'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_22(PetPUT.java:296)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_22(PetPUT.java:295)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace452817647", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace452817647'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_22(PetPUT.java:295)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1179,18 +1669,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_23()'><b>TC_23</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_23(PetPOST.java:310)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1127866590", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1127866590'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_23(PetPOST.java:308)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1680147911", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1680147911'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_23(PetPOST.java:310)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_23(PetPOST.java:308)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1217,18 +1707,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_23()'><b>TC_23</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_23(PetPUT.java:308)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1655740181", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1655740181'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_23(PetPUT.java:308)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_23(PetPUT.java:307)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace194672584", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace194672584'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_23(PetPUT.java:307)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1255,18 +1750,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_24()'><b>TC_24</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_24(PetPOST.java:323)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1041905665", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1041905665'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_24(PetPOST.java:321)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1687586610", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1687586610'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_24(PetPOST.java:323)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_24(PetPOST.java:321)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1293,18 +1788,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_24()'><b>TC_24</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_24(PetPUT.java:321)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1311004473", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1311004473'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_24(PetPUT.java:321)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_24(PetPUT.java:320)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1964514128", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1964514128'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_24(PetPUT.java:320)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1331,18 +1831,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_25()'><b>TC_25</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_25(PetPOST.java:335)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1021656938", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1021656938'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_25(PetPOST.java:333)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace426052262", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace426052262'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_25(PetPOST.java:335)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_25(PetPOST.java:333)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1369,18 +1869,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_25()'><b>TC_25</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_25(PetPUT.java:333)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2069678360", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2069678360'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_25(PetPUT.java:333)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_25(PetPUT.java:332)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace787156891", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace787156891'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_25(PetPUT.java:332)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1407,18 +1912,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_26()'><b>TC_26</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_26(PetPOST.java:347)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace720661245", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace720661245'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_26(PetPOST.java:345)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace678654833", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace678654833'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_26(PetPOST.java:347)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_26(PetPOST.java:345)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1445,18 +1950,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_26()'><b>TC_26</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_26(PetPUT.java:345)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1593749783", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1593749783'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_26(PetPUT.java:345)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_26(PetPUT.java:344)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1663431506", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1663431506'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_26(PetPUT.java:344)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1483,18 +1993,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_27()'><b>TC_27</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_27(PetPOST.java:357)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace271614685", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace271614685'><pre>java.lang.AssertionError: null
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_27(PetPOST.java:355)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1602069459", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1602069459'><pre>java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:452)
-	at com.steerlean.scenarios.pet.PetPOST.TC_27(PetPOST.java:357)
+	at com.steerlean.scenarios.pet.PetPOST.Error(PetPOST.java:450)
+	at com.steerlean.scenarios.pet.PetPOST.TC_27(PetPOST.java:355)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1521,18 +2031,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
+<td>4</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_27()'><b>TC_27</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_27(PetPUT.java:355)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2143108725", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2143108725'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_27(PetPUT.java:355)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_27(PetPUT.java:354)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1440057381", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1440057381'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_27(PetPUT.java:354)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1559,18 +2074,23 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPUT.TC_28()'><b>TC_28</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td><div><pre>java.lang.AssertionError: null
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_28(PetPUT.java:366)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1938974193", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1938974193'><pre>java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:96)
-	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:461)
-	at com.steerlean.scenarios.pet.PetPUT.TC_28(PetPUT.java:366)
+<td><div><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_28(PetPUT.java:365)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace765702264", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace765702264'><pre>java.io.FileNotFoundException: .\src\test\java\resources\endpoints.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.&lt;init&gt;(Unknown Source)
+	at com.steerlean.scenarios.pet.PetPUT.Error(PetPUT.java:422)
+	at com.steerlean.scenarios.pet.PetPUT.TC_28(PetPUT.java:365)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -1597,8 +2117,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>0</td>
+<td>com.steerlean.scenarios.pet.PetPUT@553f17c</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -1611,137 +2131,87 @@ function toggleAllBoxes() {
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_01()'><b>TC_01</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td></td>
 <td>5</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
-<tr>
-<td title='com.steerlean.scenarios.pet.PetPUT.TC_01()'><b>TC_01</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetGETbyStatus.TC_01()'><b>TC_01</b><br>Test class: com.steerlean.scenarios.pet.PetGETbyStatus</td>
 <td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetGETbyStatus@271053e1</td></tr>
+<td>3</td>
+<td>com.steerlean.scenarios.pet.PetGETbyStatus@4f7d0008</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetDELETE.TC_01()'><b>TC_01</b><br>Test class: com.steerlean.scenarios.pet.PetDELETE</td>
 <td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetDELETE@589838eb</td></tr>
+<td>3</td>
+<td>com.steerlean.scenarios.pet.PetDELETE@271053e1</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_02()'><b>TC_02</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td></td>
 <td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
-<tr>
-<td title='com.steerlean.scenarios.pet.PetPUT.TC_02()'><b>TC_02</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetDELETE.TC_02()'><b>TC_02</b><br>Test class: com.steerlean.scenarios.pet.PetDELETE</td>
 <td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetDELETE@589838eb</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetDELETE@271053e1</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_03()'><b>TC_03</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td></td>
-<td>2</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
-<tr>
-<td title='com.steerlean.scenarios.pet.PetPUT.TC_03()'><b>TC_03</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td></td>
 <td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetDELETE.TC_03()'><b>TC_03</b><br>Test class: com.steerlean.scenarios.pet.PetDELETE</td>
 <td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetDELETE@589838eb</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetDELETE@271053e1</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_04()'><b>TC_04</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td></td>
 <td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
-<tr>
-<td title='com.steerlean.scenarios.pet.PetPUT.TC_04()'><b>TC_04</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetDELETE.TC_04()'><b>TC_04</b><br>Test class: com.steerlean.scenarios.pet.PetDELETE</td>
 <td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetDELETE@589838eb</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetDELETE@271053e1</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetDELETE.TC_05()'><b>TC_05</b><br>Test class: com.steerlean.scenarios.pet.PetDELETE</td>
 <td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetDELETE@589838eb</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetDELETE@271053e1</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_06()'><b>TC_06</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
-<tr>
-<td title='com.steerlean.scenarios.pet.PetPUT.TC_06()'><b>TC_06</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetDELETE.TC_06()'><b>TC_06</b><br>Test class: com.steerlean.scenarios.pet.PetDELETE</td>
 <td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetDELETE@589838eb</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetDELETE@271053e1</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_07()'><b>TC_07</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
-<tr>
-<td title='com.steerlean.scenarios.pet.PetPUT.TC_07()'><b>TC_07</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_17()'><b>TC_17</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td></td>
 <td>2</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
-<tr>
-<td title='com.steerlean.scenarios.pet.PetPUT.TC_17()'><b>TC_17</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_18()'><b>TC_18</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
-<tr>
-<td title='com.steerlean.scenarios.pet.PetPUT.TC_18()'><b>TC_18</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_19()'><b>TC_19</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
-<tr>
-<td title='com.steerlean.scenarios.pet.PetPUT.TC_19()'><b>TC_19</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>2</td>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 <tr>
 <td title='com.steerlean.scenarios.pet.PetPOST.TC_20()'><b>TC_20</b><br>Test class: com.steerlean.scenarios.pet.PetPOST</td>
 <td></td>
 <td>1</td>
-<td>com.steerlean.scenarios.pet.PetPOST@553f17c</td></tr>
-<tr>
-<td title='com.steerlean.scenarios.pet.PetPUT.TC_20()'><b>TC_20</b><br>Test class: com.steerlean.scenarios.pet.PetPUT</td>
-<td></td>
-<td>1</td>
-<td>com.steerlean.scenarios.pet.PetPUT@4f7d0008</td></tr>
+<td>com.steerlean.scenarios.pet.PetPOST@5f341870</td></tr>
 </table><p>
 </body>
 </html>

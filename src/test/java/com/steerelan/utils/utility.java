@@ -1,4 +1,4 @@
-package utils;
+package com.steerelan.utils;
 
 public class utility {
 	public static String jsonFormat(String jsonResponse) {

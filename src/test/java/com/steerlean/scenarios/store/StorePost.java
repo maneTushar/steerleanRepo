@@ -17,14 +17,13 @@ import com.aventstack.extentreports.markuputils.MarkupHelper;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import methods.PostMethod;
-import utils.*;
-
+import com.steerelan.utils.*;
+import com.steerlean.methods.*;
 public class StorePost extends Reporting {
 
 public static String dir = System.getProperty("user.dir");
 	
-	static File file = new File(".//src//main//resources//endpoints//endpoints.properties");
+static File file = new File(".//src//test//java//com/steerlean//resources//endpoints.properties");
 	
 	@BeforeMethod
 	protected void startRepo(Method m) throws IOException {

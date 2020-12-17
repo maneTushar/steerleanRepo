@@ -3,15 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.steerlean.scenarios.pet.PetPOST">
+      <class name="com.steerlean.scenarios.pet.PetDELETE">
         <methods>
-          <include name="TC_05"/>
-          <include name="startReport"/>
-          <include name="TC_01"/>
           <include name="startRepo"/>
           <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="TC_01"/>
         </methods>
-      </class> <!-- com.steerlean.scenarios.pet.PetPOST -->
+      </class> <!-- com.steerlean.scenarios.pet.PetDELETE -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
