@@ -1,6 +1,6 @@
-/.settings/
-/Extent_Reports/
-/target/
-/.classpath/
-/test-output/
-
+.settings/
+Extent_Reports/
+target/
+.classpath/
+test-output/
+.project
