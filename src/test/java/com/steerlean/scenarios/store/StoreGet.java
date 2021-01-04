@@ -23,7 +23,7 @@ public class StoreGet extends Reporting {
 	
 	static File file = new File(".//src//test//java//com/steerlean//resources//endpoints.properties");
 	
-	
+	TestReport testReport=new TestReport();
 
 @BeforeMethod
 protected void startRepo(Method m) throws IOException {
@@ -43,7 +43,7 @@ public void TC_01() throws IOException
 	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the Store details are successfully "
 			+ "fetched  Pet details when valid ID passed in URL", ExtentColor.PURPLE));
 	
-	success(testCaseID,"9");
+	testReport.success(testCaseID,"501","","GET");
 }
 
 @Test
@@ -52,7 +52,7 @@ public void TC_02() throws IOException
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
 	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  invalid ID passed in URL", ExtentColor.PURPLE));
-	success(testCaseID,"6565");
+	testReport.Error(testCaseID,"6565","","GET");
 }
 
 @Test
@@ -62,7 +62,7 @@ public void TC_03() throws IOException
 	}.getClass().getEnclosingMethod().getName();
 	
 	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  special characters are passed for ID  in URL", ExtentColor.PURPLE));
-	success(testCaseID,"%^&");
+	testReport.Error(testCaseID,"%^&","","GET");
 }
 
 @Test
@@ -72,7 +72,7 @@ public void TC_04() throws IOException
 	}.getClass().getEnclosingMethod().getName();
 	
 	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  space passed for ID  in URL", ExtentColor.PURPLE));
-	success(testCaseID," ");
+	testReport.Error(testCaseID," ","","GET");
 }
 
 @Test
@@ -81,7 +81,7 @@ public void TC_05() throws IOException
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
 	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  null is passed for ID  in URL", ExtentColor.PURPLE));
-	success(testCaseID,null);
+	testReport.Error(testCaseID,null,"","GET");
 }
 
 @Test
@@ -90,7 +90,7 @@ public void TC_06() throws IOException
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
 	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  empty is passed for ID  in URL", ExtentColor.PURPLE));
-	success(testCaseID,"");
+	testReport.Error(testCaseID,"","","GET");
 }
 
 @Test
@@ -99,10 +99,10 @@ public void TC_07() throws IOException
 	String testCaseID = new Object() {
 	}.getClass().getEnclosingMethod().getName();
 	test.log(Status.INFO,MarkupHelper.createLabel("Validate that the error is displayed when  invalid ID passed in URL", ExtentColor.PURPLE));
-	success(testCaseID,"dbn");
+	testReport.Error(testCaseID,"dbn","","GET");
 }
 
-	
+	/*
 	public static void success(String testcaseID,String ID) throws IOException
 	{
 		FileInputStream fileInput = new FileInputStream(file);
@@ -171,5 +171,5 @@ public void TC_07() throws IOException
 			Assert.fail();
 		}
 	
-	}
+	}*/
 }
